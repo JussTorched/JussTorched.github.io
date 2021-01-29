@@ -1,11 +1,14 @@
 h1 {
   color: #ed5e4e;
+  font: times new roman;
   text-align: center;
 }
 p {
+  font: palatino;
   text-align: center;
 }
 div {
   color: #65b4c2;
+  font: courier;
   text-align: center;
 }
