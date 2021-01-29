@@ -2,6 +2,7 @@ h1 {
   color: #a60b00;
   font: times new roman;
   text-align: center;
+  -webkit-text-stroke: 2px black;
 }
 p {
   font: palatino;
