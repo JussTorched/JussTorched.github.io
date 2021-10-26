@@ -1,0 +1,141 @@
+body {
+    background-image: url('/assets/background.jpg');
+    background-repeat: round;
+}
+
+.header {
+    background-color: bisque;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 225%;
+}
+
+.spacer {
+    margin-top: 10px;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.box-container {
+    text-align: initial;
+    background-color: bisque;
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.container-header {
+    background-color: rgb(231, 191, 142);
+    /* opacity: 50%; */
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.container-header h1 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    width: inherit;
+    height: 10%;
+    margin-top: -.01%;
+    cursor: grab;
+}
+
+.container-footer {
+    /* opacity: 50%; */
+    background-color: rgb(231, 191, 142);
+    width: inherit;
+    height: 25px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    margin-top: 2.8%;
+}
+
+.container-footer-image {
+    text-align: center;
+}
+
+.container-footer-image img {
+    width: 25px;
+    height: 25px;
+    display: initial;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.item-container {
+    border-radius: inherit;
+    text-align: center;
+    margin: initial;
+}
+
+.item {
+    text-align: center;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(231, 191, 142);
+    /* opacity: 50%; */
+    display: inline-block;
+    border-radius: inherit;
+}
+
+.item-header {
+    background-color: rgb(216, 163, 98);
+    width: inherit;
+    height: 20%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    margin-top: -11.17%;
+    /* opacity: 50%; */
+}
+
+.item-header h1 {
+    font-size: 15px;
+}
+
+.item-image {
+    margin: auto;
+}
+
+.item-image img {
+    width: 50%;
+    display:initial;
+    margin-top: 10%;
+}
+
+.item-footer {
+    /* opacity: 50%; */
+    background-color: rgb(216, 163, 98);
+    width: inherit;
+    height: 10%;
+    margin-top: 12%;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    text-align: center;
+}
+
+.item-footer img {
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    display: initial;
+}
+
+.visible {
+    display: visible;
+}
+.hidden {
+    display: none;
+}
