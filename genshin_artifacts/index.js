@@ -644,7 +644,7 @@ function createElements(containerHeadText) {
     containerHeaderText.innerText = (containerHeadText || 'Not Found')
     containerHeaderText.addEventListener('click', (() => {
         let setName = containerHeadText
-        window.open(`${window.location.href}sets.html?set=${setName}`)
+        window.open(`${window.location.search}/sets.html?set=${setName}`)
     }))
 
     boxes.appendChild(boxContainer)
