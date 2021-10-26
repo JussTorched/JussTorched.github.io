@@ -693,7 +693,11 @@ function createFooter(setName) {
 }
 
 function load() {
-
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    if (urlParams.get('set') !== null) {
+        document.head.title = urlParams.get('set')
+    }
     function getParam(param) {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
